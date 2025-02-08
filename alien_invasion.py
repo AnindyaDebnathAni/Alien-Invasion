@@ -1,7 +1,7 @@
 import sys
 import pygame
 
-#CREARING A PYGAME WINDOW
+#CREATING A PYGAME WINDOW
 
 class AlienInvasion:
     def __init__(self):
