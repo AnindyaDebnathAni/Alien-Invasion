@@ -1,6 +1,8 @@
 import sys
 import pygame
 
+#CREARING A PYGAME WINDOW
+
 class AlienInvasion:
     def __init__(self):
         pygame.init()
@@ -18,4 +20,19 @@ class AlienInvasion:
 if __name__=='__main__':
     ai =AlienInvasion()
     ai.run_game()
+
+#FRAME RATE
+
+    def __init__(self):
+        pygame.init()
+        self.clock=pygame.time.Clock()
+
+
+    def run_game(self):
+        while True:
+            pygame.display.flip()
+            self.clock.tick(60)
+
+
+
 
